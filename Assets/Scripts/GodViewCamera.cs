@@ -121,6 +121,12 @@ public class GodViewCamera : MonoBehaviour
             return;
         }
 
+        if (PlanetEditorPanel.BlocksCamera(input.pointer))
+        {
+            ReleaseMouse();
+            return;
+        }
+
         if (input.frameAll)
         FrameAllBodies();
 

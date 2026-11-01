@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 330585545}
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
+  - component: {fileID: 330585548}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -256,6 +257,37 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &330585548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 510aee119733135428edc6acf30cd163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GodViewCamera
+  simulationPanel: {fileID: 0}
+  focusedTarget: {fileID: 0}
+  flySpeed: 5
+  boostMultiplier: 5
+  precisionMultiplier: 0.1
+  lookSensitivity: 0.15
+  initialDistance: 20
+  minimumDistance: 0.02
+  maximumDistance: 100000
+  zoomSensitivity: 0.2
+  followFocusedBody: 1
+  blockClockPanel: 1
+  clockPanel:
+    serializedVersion: 2
+    x: 12
+    y: 12
+    width: 460
+    height: 220
+  scrollUnitsPerNotch: 0.5
 --- !u!1 &360714444
 GameObject:
   m_ObjectHideFlags: 0
