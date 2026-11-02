@@ -5,6 +5,8 @@ This world is granted through a Physics-Based Simulated Realm in which you study
 To Play, simply download the Windows Build or play on your Browser through: https://art1factual.itch.io/Gravitas
 Then pan, tilt, and zoom through the realm, whilst analyzing the accurate systems of information upon the panel.
 
+More Updates will come soon, improving the UI and User-Experience so as to more immerse you into the world of Einsteins theory.
+
 **Controls**: 
 
 **F** - Focus
